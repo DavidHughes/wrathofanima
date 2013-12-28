@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:900,700);
+.grid > * {
+  float: left;
+  padding-left: 10px; }
+.grid:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.g-33 {
+  width: 33%; }
+
+.g-50 {
+  width: 50%; }
+
+.g-66 {
+  width: 67%; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+/* Header */
+header {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 20px; }
+  header .main-nav {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1; }
+  header .header__menu {
+    display: flex;
+    flex-flow: row; }
+
+.logo__subtitle {
+  margin-left: 50px; }
+
+/* Main Page */
+#home {
+  padding-top: 30px; }
+
+.post {
+  margin-bottom: 20px;
+  padding-right: 20px; }
+  .post blockquote {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px; }
+
+.title {
+  margin-bottom: 20px; }
+
+.content p {
+  margin-bottom: 1em; }
+
+/* Post specific */
+.post blockquote > p {
+  margin-bottom: 0; }
+
+/* Progress page */
+.game__img {
+  max-width: 100%; }
+
+.status {
+  padding: 10px; }
+
+/* Aside */
+aside {
+  padding-top: 24px;
+  margin-bottom: 20px; }
+
+.aside-block {
+  padding: 20px;
+  margin-bottom: 20px; }
+
+.current__game {
+  margin-bottom: 20px; }
+
+.current__game, .current__verdict {
+  text-align: center; }
+
+/* Footer */
+hr {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 0; }
+
+.contact {
+  text-align: center; }
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #353e55; }
+
+.aside-block {
+  background-color: #353e55;
+  color: #aaaaaa;
+  border-radius: 5px; }
+
+body {
+  background-color: #333333;
+  color: #333333; }
+
+.container {
+  background-color: #aaaaaa; }
+
+.main-nav {
+  background-color: #4f6f10; }
+  .main-nav a {
+    color: #aaaaaa; }
+
+.logo__subtitle {
+  color: #353e55; }
+
+.post blockquote {
+  background-color: #333333;
+  color: #FFFFFF;
+  border-radius: 3px; }
+
+/* Progress page */
+.game__inner {
+  background-color: #333333;
+  border-radius: 5px; }
+
+.game__img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  min-height: 85px;
+  color: #aaaaaa;
+  text-align: center; }
+
+.status {
+  text-align: center;
+  color: #aaaaaa; }
+
+.complete {
+  text-decoration: line-through;
+  color: #4f6f10; }
+
+/* Footer */
+hr {
+  border-color: #333333; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 24px; }
+
+h1, h2 {
+  font-weight: bold;
+  font-family: Merriweather, serif; }
+
+p {
+  font-family: Calluna-Regular, sans-serif; }
+
+.logo__subtitle {
+  font-size: 15px; }
+
+.progress {
+  font-size: 1.2em; }

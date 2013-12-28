@@ -1,0 +1,27 @@
+@mixin grid {
+  & > * {
+    float: left;
+    padding-left: $gutter-left;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.grid {
+  @include grid;
+}
+
+.g-33 {
+  width: 33%;
+}
+
+.g-50 {
+  width: 50%;
+}
+
+.g-66 {
+  width: 67%;
+}

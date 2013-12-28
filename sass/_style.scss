@@ -1,0 +1,64 @@
+a:link, a:visited, a:active, {
+  text-decoration: none;
+  color: $dark-blue;
+}
+
+.aside-block {
+  background-color: $dark-blue;
+  color: $contrast-color;
+  border-radius: 5px;
+}
+
+body {
+  background-color: $primary-color;
+  color: $primary-color;
+}
+
+.container {
+  background-color: $contrast-color;
+}
+
+.main-nav {
+  background-color: $emphasis-green;
+  a {
+    color: $contrast-color;
+  }
+}
+
+.logo__subtitle {
+  color: $dark-blue;
+}
+
+.post blockquote {
+  background-color: #333333;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+
+/* Progress page */
+.game__inner {
+  background-color: $primary-color;
+  border-radius: $panel-radius;
+}
+.game__img {
+  border-top-left-radius: $panel-radius;
+  border-top-right-radius: $panel-radius;
+  min-height: 85px;
+  color: $contrast-color;
+  text-align: center;
+}
+.status {
+  text-align: center;
+  color: $contrast-color;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: $emphasis-green;
+}
+
+/* Footer */
+
+hr {
+  border-color: $primary-color;
+}

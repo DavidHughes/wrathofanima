@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:900,700);
+
+h1 {
+  font-size: $main-header-size;
+}
+
+h2 {
+  font-size: $subheader-size;
+}
+
+h1, h2 {
+  font-weight: bold;
+  font-family: $display-font;
+}
+
+p {
+  font-family: $text-font;
+}
+
+.logo__subtitle {
+  font-size: $main-header-size * 0.5;
+}
+
+.progress {
+  font-size: 1.2em;
+}

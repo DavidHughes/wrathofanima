@@ -1,0 +1,20 @@
+---
+layout: default
+title: Wrath's Backlog Progress
+---
+
+<div id="progress">
+  <h2>The Backlog</h2>
+  <ul class="games-list grid">
+    {% for game in site.data.games %}
+    <li class="game g-33">
+      <div class="game__inner">
+        <a href="{{ game.store }}">
+          <img class="game__img" src="{{ game.img }}" alt="{{ game.name }}">
+        </a>
+        <p class="status {% if game.complete %}complete{% endif %}">{% if game.complete %}Complete{% else %}Incomplete{% endif %}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

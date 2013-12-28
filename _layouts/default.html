@@ -1,0 +1,80 @@
+---
+ game: Final Fantasy VIII
+ verdict: Just getting started!
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <!--
+        /**
+         * @license
+         * MyFonts Webfont Build ID 2713564, 2013-12-24T16:21:34-0500
+         * 
+         * The fonts listed in this notice are subject to the End User License
+         * Agreement(s) entered into by the website owner. All other parties are 
+         * explicitly restricted from using the Licensed Webfonts(s).
+         * 
+         * You may obtain a valid license at the URLs below.
+         * 
+         * Webfont: Calluna Regular by exljbris
+         * URL: http://www.myfonts.com/fonts/exljbris/calluna/regular/
+         * Copyright: &#x00A9; 2009 exljbris Font Foundry. All rights reserved.
+         * Licensed pageviews: Unlimited
+         * 
+         * 
+         * License: http://www.myfonts.com/viewlicense?type=web&buildid=2713564
+         * 
+         * © 2013 MyFonts Inc
+        */
+        -->
+        <link rel="stylesheet" type="text/css" href="/css/fonts/MyFontsWebfontsKit.css">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="site">
+            <header class="grid">
+              <div class="logo g-66">
+                <h1 class="logo__title"><a href="/">{{ site.name }}</a></h1>
+                <h2 class="logo__subtitle">vs his Steam Library</h2>
+              </div>
+              <div class="header__menu g-33">
+                <nav class="main-nav">
+                  <a href="/">Home</a>
+                  <a href="/progress">Progress</a>
+                  <a href="/about">About</a>
+                </nav>
+              </div>
+            </header>
+
+            <main class="grid">
+              <div class="content g-66">
+                {{ content }}
+              </div>
+              <aside class="g-33">
+                {% include current-game.html %}
+                {% include twitter-block.html %}
+              </aside>
+            </main>
+
+            <hr />
+
+            <footer>
+              <div class="contact">
+                <p>
+                   Powered by <a href="http://jekyllrb.com/">Jekyll</a>.
+                </p>
+                <p>&copy; <a href="http://twitter.com/wrathofanima">David Hughes</a>, 2013</p>
+              </div>
+            </footer>
+          </div>
+        </div> <!-- /container -->
+
+    </body>
+</html>

@@ -1,0 +1,103 @@
+@import "_grid.scss";
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding-right: $gutter-left;
+  padding-bottom: $gutter-bottom;
+  padding-top: $gutter-bottom;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: $gutter-bottom;
+  .main-nav {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+  }
+  .header__menu {
+    display: flex;
+    flex-flow: row;
+  }
+}
+
+.logo__subtitle {
+  margin-left: 50px;
+}
+
+/* Main Page */
+#home {
+  padding-top: $main-header-size;
+}
+.post {
+  margin-bottom: $gutter-bottom;
+  padding-right: $gutter-left * 2;
+  blockquote {
+    margin-top: $gutter-bottom;
+    margin-left: $gutter-left * 2;
+    margin-bottom: $gutter-bottom;
+    padding: 10px;
+  }
+}
+
+.title {
+  margin-bottom: $gutter-bottom;
+}
+
+.content p {
+  margin-bottom: 1em;
+}
+
+/* Post specific */
+.post blockquote > p {
+  margin-bottom: 0;
+}
+
+/* Progress page */
+.game__img {
+  max-width: 100%;
+}
+
+.status {
+  padding: 10px;
+}
+
+/* Aside */
+aside {
+  padding-top: $subheader-size;
+  margin-bottom: $gutter-bottom;
+}
+
+.aside-block {
+  padding: 20px;
+  margin-bottom: $gutter-bottom;
+}
+
+.current__game {
+  margin-bottom: $gutter-bottom;
+}
+
+.current__game, .current__verdict {
+  text-align: center;
+}
+
+/* Footer */
+hr {
+  margin-left: $gutter-left;
+  margin-bottom: $gutter-bottom;
+  margin-top: 0;
+}
+.contact {
+  text-align: center;
+}
