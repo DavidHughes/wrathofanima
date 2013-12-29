@@ -164,7 +164,7 @@ h1, h2 {
   font-weight: bold;
   font-family: Merriweather, serif; }
 
-p {
+p, .main-nav a {
   font-family: Calluna-Regular, sans-serif; }
 
 .logo__subtitle {
