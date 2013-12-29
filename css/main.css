@@ -48,7 +48,7 @@ header {
   margin-left: 50px; }
 
 /* Main Page */
-#home {
+.content {
   padding-top: 30px; }
 
 .post {
