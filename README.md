@@ -5,7 +5,7 @@ The blog runs on a vanilla Jekyll install. Feel free to have a poke around to se
 
 Content & code is copyrighted to David Hughes.
 
-Running locally should be done with "jekyll serve -w --baseurl ''"
+Running locally should be done with "jekyll serve -w".
 
 #Notes: 
 Missing links/images in _data/games.yml:
