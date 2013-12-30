@@ -24,8 +24,8 @@
   complete: False
 
 - name: "Borderlands 2"
-  img: x
-  store: x 
+  img: http://cdn2.steampowered.com/v/gfx/apps/49520/header_292x136.jpg?t=1387303327
+  store: http://store.steampowered.com/app/49520/ 
   complete: False
 
 - name: "Dark Souls: Prepare to Die Edition"
@@ -34,8 +34,8 @@
   complete: False
 
 - name: "Deus Ex: Human Revolution"
-  img: x
-  store: x 
+  img: http://cdn2.steampowered.com/v/gfx/apps/238010/header_292x136.jpg?t=1387966817
+  store: http://store.steampowered.com/app/238010/?snr=1_7_15__13
   complete: False
 
 - name: "Devil May Cry 4"
@@ -59,8 +59,8 @@
   complete: False
 
 - name: "FINAL FANTASY VIII"
-  img: x
-  store: x 
+  img: http://cdn2.steampowered.com/v/gfx/apps/39150/header_292x136.jpg?t=1386851342
+  store: http://store.steampowered.com/app/39150/?snr=1_7_15__13
   complete: False
 
 - name: "Flotilla"
@@ -69,13 +69,13 @@
   complete: False
 
 - name: "Hotline Miami"
-  img: x
-  store: x
+  img: http://cdn2.steampowered.com/v/gfx/apps/219150/header_292x136.jpg?t=1379072659
+  store: http://store.steampowered.com/app/219150/
   complete: True
 
 - name: "Lone Survivor: The Director's Cut"
-  img: x
-  store: x 
+  img: http://cdn2.steampowered.com/v/gfx/apps/209830/header_292x136.jpg?t=1385592509
+  store: http://store.steampowered.com/app/209830/?snr=1_7_15__13
   complete: False
 
 - name: "Offspring Fling!"
@@ -99,8 +99,8 @@
   complete: False
 
 - name: "Spec Ops: The Line"
-  img: x
-  store: x 
+  img: http://cdn2.steampowered.com/v/gfx/apps/50300/header_292x136.jpg?t=1386187388
+  store: http://store.steampowered.com/app/50300/?snr=1_7_15__13
   complete: False
 
 - name: "The Stanley Parable"
@@ -144,8 +144,8 @@
   complete: False
 
 - name: "Castlevania: Lords of Shadow - Ultimate Edition"
-  img: x
-  store: x 
+  img: http://cdn2.steampowered.com/v/gfx/apps/234080/header_292x136.jpg?t=1377745077
+  store: http://store.steampowered.com/app/234080/?snr=1_7_15__13
   complete: False
 
 - name: "Command and Conquer 3: Tiberium Wars"
@@ -189,8 +189,8 @@
   complete: False
 
 - name: "FINAL FANTASY VII"
-  img: x
-  store: x
+  img: http://cdn2.steampowered.com/v/gfx/apps/39140/header_292x136.jpg?t=1383569170
+  store: http://store.steampowered.com/app/39140/?snr=1_7_15__13
   complete: False
 
 - name: "Fractal: Make Blooms Not War"
@@ -244,18 +244,18 @@
   complete: False
 
 - name: "METAL GEAR RISING: REVENGEANCE"
-  img: x
-  store: x
+  img: http://cdn2.steampowered.com/v/gfx/apps/235460/header_292x136.jpg?t=1387491799
+  store: http://cdn2.steampowered.com/v/gfx/apps/235460/header_292x136.jpg?t=1387491799
   complete: False
 
 - name: "PAYDAY: The Heist"
-  img: x
-  store: x
+  img: http://cdn2.steampowered.com/v/gfx/apps/24240/header_292x136.jpg?t=1374573225
+  store: http://store.steampowered.com/app/24240/?snr=1_7_15__13
   complete: False
 
 - name: "Tomb Raider VI: The Angel of Darkness"
-  img: x
-  store: x 
+  img: http://cdn2.steampowered.com/v/gfx/apps/225020/header_292x136.jpg?t=1354560696
+  store: http://store.steampowered.com/app/225020/
   complete: False
 
 - name: "Tomb Raider I"
@@ -264,13 +264,13 @@
   complete: False
 
 - name: "Tomb Raider II"
-  img: x
-  store: x
+  img: http://cdn2.steampowered.com/v/gfx/apps/225300/header_292x136.jpg?t=1383683524
+  store: http://store.steampowered.com/app/225300/
   complete: False
 
 - name: "Tomb Raider III: Adventures of Lara Croft"
-  img: x
-  store: x
+  img: http://cdn2.steampowered.com/v/gfx/apps/225320/header_292x136.jpg?t=1354222545
+  store: http://store.steampowered.com/app/225320/
   complete: False
 
 - name: "Tomb Raider: Anniversary"
@@ -284,8 +284,8 @@
   complete: False
 
 - name: "Tomb Raider: The Last Revelation"
-  img: x
-  store: x 
+  img: http://cdn2.steampowered.com/v/gfx/apps/224980/header_292x136.jpg?t=1354222545
+  store: http://store.steampowered.com/app/224980/
   complete: False
 
 - name: "Tomb Raider: Underworld"
