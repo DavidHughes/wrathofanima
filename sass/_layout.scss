@@ -66,6 +66,9 @@ header {
 }
 
 /* Progress page */
+.game:nth-of-type(3n+1) {
+  clear: left;
+}
 .game__img {
   max-width: 100%;
 }
