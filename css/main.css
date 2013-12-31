@@ -39,7 +39,7 @@
 /* Header */
 header .main-nav {
   border: 1px solid black;
-  min-height: 45px;
+  height: 45px;
   width: 100%;
   display: table; }
   header .main-nav a {
