@@ -2,6 +2,7 @@
 .grid > * {
   float: left;
   padding-left: 10px; }
+
 .grid:after {
   content: "";
   display: table;
@@ -16,6 +17,13 @@
 .g-66 {
   width: 67%; }
 
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+  .game {
+    width: 50%; } }
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .g-66, .g-33 {
+    width: 100%; } }
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -23,33 +31,30 @@
 
 .container {
   max-width: 900px;
-  margin: 30px auto;
+  margin: 20px auto;
   padding-right: 10px;
   padding-bottom: 20px;
   padding-top: 20px; }
 
 /* Header */
-header {
-  display: flex;
-  flex-flow: row;
-  margin-bottom: 20px; }
-  header .main-nav {
-    border: 1px solid black;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    flex: 1; }
-  header .header__menu {
-    display: flex;
-    flex-flow: row; }
+header .main-nav {
+  border: 1px solid black;
+  min-height: 45px;
+  width: 100%;
+  display: table; }
+  header .main-nav a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
 
-.logo__subtitle {
-  margin-left: 50px; }
+.logo {
+  text-align: center; }
 
 /* Main Page */
 .content {
-  padding-top: 30px; }
+  padding-top: 24px; }
+  .content p {
+    margin-bottom: 1em; }
 
 .post {
   margin-bottom: 20px;
@@ -63,17 +68,11 @@ header {
 .title {
   margin-bottom: 20px; }
 
-.content p {
-  margin-bottom: 1em; }
-
 /* Post specific */
 .post blockquote > p {
   margin-bottom: 0; }
 
 /* Progress page */
-.game:nth-of-type(3n+1) {
-  clear: left; }
-
 .game__img {
   max-width: 100%; }
 
@@ -104,6 +103,26 @@ hr {
 .contact {
   text-align: center; }
 
+/* Media queries */
+@media only screen and (min-width: 800px) {
+  .game:nth-of-type(3n+1) {
+    clear: left; } }
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+  .game:nth-of-type(2n+1) {
+    clear: left; } }
+@media only screen and (max-width: 480px) {
+  .title {
+    text-align: center; }
+
+  header .g-66 {
+    margin-bottom: 20px; }
+
+  .game {
+    padding-left: 0; }
+    .game img {
+      display: block;
+      margin: 0 auto;
+      padding-top: 20px; } }
 a:link, a:visited, a:active {
   text-decoration: none;
   color: #353e55; }

@@ -16,25 +16,21 @@
 
 /* Header */
 header {
-  display: flex;
-  flex-flow: row;
-  margin-bottom: $gutter-bottom;
   .main-nav {
     border: 1px solid black;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    flex: 1;
-  }
-  .header__menu {
-    display: flex;
-    flex-flow: row;
+    min-height: 45px;
+    width: 100%;
+    display: table;
+    a {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
   }
 }
 
-.logo__subtitle {
-  margin-left: 50px;
+.logo {
+  text-align: center;
 }
 
 /* Main Page */
@@ -65,9 +61,6 @@ header {
 }
 
 /* Progress page */
-.game:nth-of-type(3n+1) {
-  clear: left;
-}
 .game__img {
   max-width: 100%;
 }
@@ -103,4 +96,34 @@ hr {
 }
 .contact {
   text-align: center;
+}
+
+/* Media queries */
+@media only screen and (min-width: $desk-bp) {
+  .game:nth-of-type(3n+1) {
+    clear: left;
+  }
+}
+
+@media only screen and (min-width: $narrow-bp) and (max-width: $desk-bp) {
+  .game:nth-of-type(2n+1) {
+    clear: left;
+  }
+}
+
+@media only screen and (max-width: $narrow-bp) {
+  .title {
+    text-align: center;
+  }
+  header .g-66 {
+    margin-bottom: $gutter-bottom;
+  }
+  .game {
+    padding-left: 0;
+    img {
+      display: block;
+      margin: 0 auto;
+      padding-top: $gutter-bottom;
+    }
+  }
 }

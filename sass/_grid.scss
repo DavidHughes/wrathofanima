@@ -1,17 +1,12 @@
-@mixin grid {
-  & > * {
-    float: left;
-    padding-left: $gutter-left;
-  }
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.grid > * {
+  float: left;
+  padding-left: $gutter-left;
 }
 
-.grid {
-  @include grid;
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .g-33 {
@@ -24,4 +19,17 @@
 
 .g-66 {
   width: 67%;
+}
+
+@media only screen and (min-width: $narrow-bp) and (max-width: $desk-bp) {
+  .game {
+    width: 50%
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: $narrow-bp) {
+  .g-66, .g-33 {
+    width: 100%;
+  }
 }
