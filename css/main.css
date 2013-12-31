@@ -148,7 +148,7 @@ a:link, a:visited, a:active {
 
 .aside-block {
   background-color: #353e55;
-  color: #aaaaaa;
+  color: #cccccc;
   border-radius: 5px; }
 
 body {
@@ -156,12 +156,12 @@ body {
   color: #333333; }
 
 .container {
-  background-color: #aaaaaa; }
+  background-color: #cccccc; }
 
 .main-nav {
   background-color: #4f6f10; }
   .main-nav a {
-    color: #aaaaaa; }
+    color: #cccccc; }
     .main-nav a:active, .main-nav a:hover {
       background-color: #364f00; }
 
@@ -182,12 +182,12 @@ body {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   min-height: 85px;
-  color: #aaaaaa;
+  color: #cccccc;
   text-align: center; }
 
 .status {
   text-align: center;
-  color: #aaaaaa; }
+  color: #cccccc; }
 
 .complete {
   text-decoration: line-through;
