@@ -69,8 +69,8 @@ table {
 */
 @font-face {
   font-family: 'Calluna-Regular';
-  src: url("fonts/2967DC_0_0.eot");
-  src: url("fonts/2967DC_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/2967DC_0_0.woff") format("woff"), url("fonts/2967DC_0_0.ttf") format("truetype"); }
+  src: url("/fonts/2967DC_0_0.eot");
+  src: url("/fonts/2967DC_0_0.eot?#iefix") format("embedded-opentype"), url("/fonts/2967DC_0_0.woff") format("woff"), url("/fonts/2967DC_0_0.ttf") format("truetype"); }
 h1 {
   font-size: 30px; }
 
