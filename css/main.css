@@ -152,8 +152,8 @@ a:link, a:visited, a:active {
   border-radius: 5px; }
 
 body {
-  background-color: #333333;
-  color: #333333; }
+  background-color: #222222;
+  color: #222222; }
 
 .container {
   background-color: #cccccc; }
@@ -175,7 +175,7 @@ body {
 
 /* Progress page */
 .game__inner {
-  background-color: #333333;
+  background-color: #222222;
   border-radius: 5px; }
 
 .game__img {
@@ -195,4 +195,4 @@ body {
 
 /* Footer */
 hr {
-  border-color: #333333; }
+  border-color: #222222; }
