@@ -1,4 +1,4 @@
 name: Wrath of Anima
 markdown: redcarpet
 pygments: true
-exclude: [CNAME, README.md, wrathofanima.sublime-project, wrathofanima.sublime-workspace]
+exclude: [CNAME, README.md, wrathofanima.sublime-project, wrathofanima.sublime-workspace, sass]
