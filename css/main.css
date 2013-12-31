@@ -144,10 +144,10 @@ hr {
       padding-top: 20px; } }
 a:link, a:visited, a:active {
   text-decoration: none;
-  color: #353e55; }
+  color: #353e66; }
 
 .aside-block {
-  background-color: #353e55;
+  background-color: #353e66;
   color: #cccccc;
   border-radius: 5px; }
 
@@ -159,14 +159,14 @@ body {
   background-color: #cccccc; }
 
 .main-nav {
-  background-color: #4f6f10; }
+  background-color: #4f7f10; }
   .main-nav a {
     color: #cccccc; }
     .main-nav a:active, .main-nav a:hover {
       background-color: #364f00; }
 
 .logo__subtitle {
-  color: #353e55; }
+  color: #353e66; }
 
 .post blockquote {
   background-color: #333333;
@@ -191,7 +191,7 @@ body {
 
 .complete {
   text-decoration: line-through;
-  color: #4f6f10; }
+  color: #4f7f10; }
 
 /* Footer */
 hr {
