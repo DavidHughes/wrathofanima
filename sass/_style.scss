@@ -22,6 +22,9 @@ body {
   background-color: $emphasis-green;
   a {
     color: $contrast-color;
+    &:active, &:hover {
+      background-color: $dark-green;
+    }
   }
 }
 

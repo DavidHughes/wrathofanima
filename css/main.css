@@ -1,4 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:900,700);
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 24px; }
+
+h1, h2 {
+  font-weight: bold;
+  font-family: Merriweather, serif; }
+
+p, .main-nav a {
+  font-family: Calluna-Regular, sans-serif; }
+
+.logo__subtitle {
+  font-size: 15px; }
+
+.progress {
+  font-size: 1.2em; }
+
 .grid > * {
   float: left;
   padding-left: 10px; }
@@ -143,6 +162,8 @@ body {
   background-color: #4f6f10; }
   .main-nav a {
     color: #aaaaaa; }
+    .main-nav a:active, .main-nav a:hover {
+      background-color: #364f00; }
 
 .logo__subtitle {
   color: #353e55; }
@@ -175,22 +196,3 @@ body {
 /* Footer */
 hr {
   border-color: #333333; }
-
-h1 {
-  font-size: 30px; }
-
-h2 {
-  font-size: 24px; }
-
-h1, h2 {
-  font-weight: bold;
-  font-family: Merriweather, serif; }
-
-p, .main-nav a {
-  font-family: Calluna-Regular, sans-serif; }
-
-.logo__subtitle {
-  font-size: 15px; }
-
-.progress {
-  font-size: 1.2em; }
