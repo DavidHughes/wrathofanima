@@ -347,3 +347,8 @@
   img: http://cdn4.steampowered.com/v/gfx/apps/43100/header_292x136.jpg?t=1375115096
   store: http://store.steampowered.com/app/43100/?snr=1_7_15__13
   complete: False
+
+- name: "Mark of the Ninja"
+  img: http://cdn2.steampowered.com/v/gfx/apps/214560/header_292x136.jpg?t=1379624521
+  store: http://store.steampowered.com/app/214560/
+  complete: False
