@@ -5,7 +5,7 @@ h1 {
   font-size: $main-header-size;
 }
 
-h2 {
+h2, h2 a {
   font-size: $subheader-size;
 }
 
@@ -16,6 +16,7 @@ h1, h2 {
 
 p, .main-nav a {
   font-family: $text-font;
+  font-size: $base-font-size;
 }
 
 .logo__subtitle {

@@ -6,18 +6,13 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 900px;
-  margin: $gutter-bottom auto;
-  padding-right: $gutter-left;
+.site {
   padding-bottom: $gutter-bottom;
-  padding-top: $gutter-bottom;
 }
 
 /* Header */
-header {
+header { 
   .main-nav {
-    border: 1px solid black;
     height: 45px;
     width: 100%;
     display: table;
@@ -31,6 +26,8 @@ header {
 
 .logo {
   text-align: center;
+  padding-top: $gutter-bottom;
+  padding-bottom: $gutter-bottom;
 }
 
 /* Main Page */

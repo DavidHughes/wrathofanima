@@ -1,6 +1,7 @@
 .grid > * {
   float: left;
-  padding-left: $gutter-left;
+  padding-left: $gutter-bottom;
+  padding-right: $gutter-bottom;
 }
 
 .grid:after {
