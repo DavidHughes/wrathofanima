@@ -37,6 +37,7 @@ header {
     margin-bottom: 1em;
   }
 }
+
 .post {
   margin-bottom: $gutter-bottom;
   padding-right: $gutter-left * 2;
@@ -45,26 +46,27 @@ header {
     margin-left: $gutter-left * 2;
     margin-bottom: $gutter-bottom;
     padding: 10px;
-  }
-}
-
-.title {
-  margin-bottom: $gutter-bottom;
-}
-
-/* Post specific */
-.post {
-  blockquote > p {
+    & > p {
     margin-bottom: 0;
+    }
   }
   figure {
+    padding: $gutter-bottom $gutter-bottom 0 $gutter-bottom;
+    border-width: 2px;
+    margin-bottom: $gutter-bottom;
     img {
       max-width: 100%;
     }
     figcaption {
       text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
   }
+}
+
+.title {
+  margin-bottom: $gutter-bottom;
 }
 
 /* Progress page */

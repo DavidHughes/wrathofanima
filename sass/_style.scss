@@ -39,10 +39,22 @@ body {
   color: $dark-blue;
 }
 
-.post blockquote {
-  background-color: #333333;
-  color: #FFFFFF;
-  border-radius: 3px;
+.post {
+  blockquote {
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 3px;
+  }
+  .spoiler {
+    background-color: $primary-color;
+    &:hover {
+      color: $contrast-color;
+    }
+  }
+  figure {
+    border-style: solid;
+    border-color: $primary-color;
+  }
 }
 
 /* Progress page */

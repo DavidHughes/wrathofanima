@@ -14,9 +14,14 @@ h1, h2 {
   font-family: $display-font;
 }
 
-p, .main-nav a {
+p, .main-nav a, figcaption {
   font-family: $text-font;
+}
+p, .main-nav a {
   font-size: $base-font-size;
+}
+figcaption {
+  font-size: $smaller-font-size;
 }
 
 .logo__subtitle {
