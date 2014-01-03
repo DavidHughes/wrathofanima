@@ -11,9 +11,9 @@ For those like me who haven't played through this game before, you play as Squal
 
 Squall and his companions initially present a fair but somewhat bland cast. Squall in particular has managed to successfully offer minimal character development throughout the whole of disc one other than being an angsty teenager with an unexplained rivalry with former classmate, Seifer. He is joined by Rinoa, a member of the aforementioned Forest Owls, daughter of Galbadia's military commander and owner of one kick-ass Limit Break.
 
-TODO: find image of Angelo Cannon
+{% image /img/ff8/angelo-cannon.jpg "Faithful pup, Angelo, being shot at a poor, unsuspecting boss" %}
 
-The combat is governed by the junctioning system. Throughout the game, you acquire Guardian Forces (aka GF's) which are the game's summonable entities. However, FFVIII's junctioning system means that they are much more than special moves, as each GF presents you with different stats that you may assign Magic to. Honestly, I'm not entirely sure how you are supposed to figure out which magic works best for what stats and this is something that I'd imagine only trial and error can really solve (hardcore fans, please feel free to correct me!). 
+The combat is governed by the junctioning system. Throughout the game, you acquire Guardian Forces (aka GF's) which are the game's summonable entities. However, FFVIII's junctioning system means that they are much more than special moves, as each GF presents you with different stats that you may assign Magic to. Honestly, I'm not entirely sure how you are supposed to figure out which magic works best for what stat and this is something that I'd imagine only trial and error can really solve (hardcore fans, please feel free to correct me!). 
 
 The main side-content is the infamous Triple Triad card game in which you strategically place creature cards on a 3x3 grid in an effort to maintain board control before you systematically lose each card one by one. But seriously, the rules and intricacies of the game make me very interested in this game, however, it seems like you need to play a lot of catch up to get your cards anywhere near the powerlevel of the opponents I seem to be facing.
 
