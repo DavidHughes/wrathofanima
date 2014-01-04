@@ -5,13 +5,13 @@ date: 2014-1-1 12:00:00
 ---
 I've decided to take my first steps into one of the larger games of my library - Squaresoft's Final Fantasy VIII. As a fan of the FF series, I have gotta say that I'm looking forward to exploring the universe. Since I've just completed disc one I figure I should stop going silent and post some of my thoughts!
 
-{% image /img/ff8/shiva-portrait.jpg "Shiva, one of the first summons you unlock" %}
+<figure><a href="/img/ff8/shiva-portrait.jpg"><img src="/img/ff8/shiva-portrait.jpg" title="Shiva, one of the first summons you unlock"></a><figcaption>Shiva, one of the first summons you unlock</figcaption></figure>
 
-For those like me who haven't played through this game before, you play as Squall, a student of Balamb Garden who is a soon-t-be SeeD graduate. SeeD are essentially mercenaries, and Squall and co's first contract is assisting Timber's Forest Owls, a resistance group trying to defend the town of Timber from the Galbadian army's tyranny. Since the actual plot is a slow reveal, I'll count the next as a disc one *SPOILER*: <span class="spoiler">the Galbadian president then elects a new "Peace Ambassador" - Sorceress Edea, a mysterious figure who is feared due to the Sorceress War that occurred before the game setting</span>.
+For those like me who haven't played through this game before, you play as Squall, a student of Balamb Garden who is a soon-t-be SeeD graduate. SeeD are essentially mercenaries, and Squall and co's first contract is assisting Timber's Forest Owls, a resistance group trying to defend the town of Timber from the Galbadian army's tyranny. Since the actual plot is a slow reveal, I'll count the next as a disc one *spoiler*: <span class="spoiler">the Galbadian president then elects a new "Peace Ambassador" - Sorceress Edea, a mysterious figure who is feared due to the Sorceress War that occurred before the game setting</span>.
 
 Squall and his companions initially present a fair but somewhat bland cast. Squall in particular has managed to successfully offer minimal character development throughout the whole of disc one other than being an angsty teenager with an unexplained rivalry with former classmate, Seifer. He is joined by Rinoa, a member of the aforementioned Forest Owls, daughter of Galbadia's military commander and owner of one kick-ass Limit Break.
 
-{% image /img/ff8/angelo-cannon.jpg "Faithful pup, Angelo, being shot at a poor, unsuspecting boss" %}
+<figure><a href="/img/ff8/angelo-cannon.jpg"><img src="/img/ff8/angelo-cannon.jpg" title="Faithful pup, Angelo, being shot at a poor, unsuspecting boss"></a><figcaption>Faithful pup, Angelo, being shot at a poor, unsuspecting boss</figcaption></figure>
 
 The combat is governed by the junctioning system. Throughout the game, you acquire Guardian Forces (aka GF's) which are the game's summonable entities. However, FFVIII's junctioning system means that they are much more than special moves, as each GF presents you with different stats that you may assign Magic to. Honestly, I'm not entirely sure how you are supposed to figure out which magic works best for what stat and this is something that I'd imagine only trial and error can really solve (hardcore fans, please feel free to correct me!). 
 
