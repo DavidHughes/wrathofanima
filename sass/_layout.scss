@@ -99,9 +99,7 @@ aside {
 
 /* Footer */
 hr {
-  margin-left: $gutter-left;
-  margin-bottom: $gutter-bottom;
-  margin-top: 0;
+  margin: 0 $gutter-left $gutter-bottom;
 }
 .contact {
   text-align: center;
