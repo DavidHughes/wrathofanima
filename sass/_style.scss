@@ -23,7 +23,11 @@ header {
 .aside-block {
   background-color: $primary-color;
   color: $contrast-color;
-  border-radius: 5px;
+
+  a {
+    color: $contrast-color;
+    text-decoration: underline;
+  }
 }
 
 body {

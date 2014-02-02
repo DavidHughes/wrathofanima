@@ -31,14 +31,22 @@ header {
 }
 
 /* Main Page */
+main {
+  max-width: $main-width;
+  margin: 0 auto;
+}
 .content {
   padding-top: $subheader-size;
   p {
-    margin-bottom: 1em;
+    margin-bottom: $paragraph-spacing;
   }
 }
 
 .post {
+  .post__header a {
+    color: $primary-color;
+    font-weight: bold;
+  }
   margin-bottom: $gutter-bottom;
   padding-right: $gutter-left * 2;
   blockquote {
@@ -86,22 +94,16 @@ aside {
 
 .aside-block {
   padding: 20px;
-  margin-bottom: $gutter-bottom;
+  margin-bottom: $paragraph-spacing;
 }
 
 .current__game {
-  margin-bottom: $gutter-bottom;
-}
-
-.current__game, .current__verdict {
-  text-align: center;
+  margin-bottom: $paragraph-spacing;
 }
 
 /* Footer */
 hr {
-  margin-left: $gutter-left;
-  margin-bottom: $gutter-bottom;
-  margin-top: 0;
+  margin: 0 $gutter-left $gutter-bottom;
 }
 .contact {
   text-align: center;

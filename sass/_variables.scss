@@ -2,15 +2,19 @@ $base-font-size: 21px;
 $main-header-size: $base-font-size * 1.5;
 $subheader-size: $base-font-size * 1.2;
 $smaller-font-size: $base-font-size * 6/7;
-// Grid
+
+// Spacing
 $gutter-left: 10px;
 $gutter-bottom: 20px;
+$paragraph-spacing: 1em;
+
+$main-width: 980px;
 
 // Color scheme
 $primary-color: #333333;
-$contrast-color: #CCCCCC;
+$contrast-color: #E3E3E3;
 $dark-blue: #353E77;
-$emphasis-green: #4F7F10;
+$emphasis-green: #417102;
 $dark-green: #364F00;
 
 // fonts
