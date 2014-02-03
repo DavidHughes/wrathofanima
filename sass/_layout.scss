@@ -95,6 +95,9 @@ aside {
 .aside-block {
   padding: 20px;
   margin-bottom: $paragraph-spacing;
+  &.current {
+    text-align: center;
+  }
 }
 
 .current__game {
