@@ -61,7 +61,7 @@
 - name: "FINAL FANTASY VIII"
   img: http://cdn2.steampowered.com/v/gfx/apps/39150/header_292x136.jpg?t=1386851342
   store: http://store.steampowered.com/app/39150/?snr=1_7_15__13
-  complete: False
+  complete: True
 
 - name: "Flotilla"
   img: http://cdn4.steampowered.com/v/gfx/apps/55000/header_292x136.jpg?t=1307482896
@@ -238,15 +238,10 @@
   store: http://store.steampowered.com/app/94200/
   complete: False
 
-- name: "Juiced 2: Hot Import Nights"
-  img: x
-  store: steamcommunity.com/app/9400
-  complete: False
-
 - name: "METAL GEAR RISING: REVENGEANCE"
   img: http://cdn2.steampowered.com/v/gfx/apps/235460/header_292x136.jpg?t=1387491799
   store: http://cdn2.steampowered.com/v/gfx/apps/235460/header_292x136.jpg?t=1387491799
-  complete: False
+  complete: True
 
 - name: "PAYDAY: The Heist"
   img: http://cdn2.steampowered.com/v/gfx/apps/24240/header_292x136.jpg?t=1374573225
