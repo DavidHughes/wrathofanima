@@ -1,4 +1,5 @@
 name: Wrath of Anima
+url: wrathofanima.com/
 markdown: redcarpet
 pygments: false
 exclude: [CNAME, README.md, wrathofanima.sublime-project, wrathofanima.sublime-workspace, sass]
