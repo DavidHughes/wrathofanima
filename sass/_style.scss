@@ -1,13 +1,21 @@
-a:link, a:visited, a:active, {
+a:link, a:visited, a:active {
   text-decoration: none;
   color: $dark-blue;
 }
 
 header {
   background-color: $dark-blue;
-  .logo__title > a, .logo__subtitle {
-    color: $contrast-color;
-  }
+}
+
+.logo__title, .logo__title > a {
+  font-size: $main-header-size * 0.6;
+  color: $contrast-color;
+}
+
+.logo__title strong {
+  font-size: $main-header-size;
+  display: block;
+  margin-bottom: 0.25em;
 }
 
 .main-nav {

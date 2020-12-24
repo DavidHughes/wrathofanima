@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }} &ndash; Wrath of Anima plays &amp; reviews his Steam library</title>
+        <title>{% if page.title %}{{page.title}} &ndash; {% endif %} Wrath of Anima plays &amp; reviews his Steam library</title>
         <meta name="viewport" content="width=device-width">
         <!--
         /**
@@ -34,41 +34,38 @@
         <link rel="stylesheet" href="{{ site.url }}css/main.css">
     </head>
     <body>
-          <div class="site">
-            <header>
-              <div class="logo">
-                  <h1 class="logo__title"><a href="/">{{ site.name }}</a></h1>
-                  <h2 class="logo__subtitle">vs his Steam Library</h2>
-              </div>
-              <div class="header__menu">
-                <nav class="main-nav">
-                  <a href="{{ site.url }}">Home</a>
-                  <a href="{{ site.url }}about/">About</a>
-                </nav>
-              </div>
-            </header>
-
-            <main class="grid">
-              <div class="content g-66">
-                {{ content }}
-              </div>
-              <aside class="g-33">
-                {% include twitter-block.html %}
-                {% include current-game.html %}
-              </aside>
-            </main>
-
-            <hr />
-
-            <footer>
-              <div class="contact">
-                <p>
-                   Powered by <a href="http://jekyllrb.com/">Jekyll</a>.
-                </p>
-                <p>&copy; <a href="https://twitter.com/wrathofanima">David Hughes</a>, 2013</p>
-              </div>
-            </footer>
+      <div class="site">
+        <header>
+          <div class="logo">
+            <h1 class="logo__title"><a href="/"><strong>{{ site.name }}</strong></a> vs his Steam Library</h1>
           </div>
+          <div class="header__menu">
+            <nav class="main-nav">
+              <a href="{{ site.url }}">Home</a>
+              <a href="{{ site.url }}about/">About</a>
+            </nav>
+          </div>
+        </header>
+
+        <main class="grid">
+          <div class="content g-66">
+            {{ content }}
+          </div>
+          <aside class="g-33">
+            {% include twitter-block.html %}
+            {% include current-game.html %}
+          </aside>
+        </main>
+
+        <hr />
+
+        <footer>
+          <div class="contact">
+            <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+            <p>&copy; <a href="https://twitter.com/wrathofanima">David Hughes</a>, {{ site.time | date: '%Y' }}</p>
+          </div>
+        </footer>
+      </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
