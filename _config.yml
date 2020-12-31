@@ -3,3 +3,6 @@ url: /
 markdown: kramdown
 pygments: false
 exclude: [CNAME, README.md, wrathofanima.sublime-project, wrathofanima.sublime-workspace, sass]
+current: 
+  game: Skyward Sword
+  thoughts: Great game held back by overambitious motion controls
