@@ -20,4 +20,4 @@ This is particularly annoying as stabbing seems to be a favourite for getting bo
 
 Overall, I think this entry gets a bad rap but I would argue that a re-release on the Switch could make the combat system a lot more tenable. I might even attempt the hard mode, an option I laughed at once I beat Demise.
 
-I'm not sure what game I'll be going for next, I have just started Age of Calamity though that seems a tad lengthy for a backlog item to clear. I've also picked up (Mini Healer)[https://store.steampowered.com/app/955740/Mini_Healer/] recently which seems fun, not sure how long it will take to clear. I'm hoping to decide soon and make a post about it.
+I'm not sure what game I'll be going for next, I have just started Age of Calamity though that seems a tad lengthy for a backlog item to clear. I've also picked up [Mini Healer](https://store.steampowered.com/app/955740/Mini_Healer/) recently which seems fun, not sure how long it will take to clear. I'm hoping to decide soon and make a post about it.
